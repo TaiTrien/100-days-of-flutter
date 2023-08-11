@@ -1,4 +1,5 @@
 import 'package:day001/pages/draggable_scrollable_sheet_page.dart';
+import 'package:day001/pages/list_wheel_scroll_view_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -50,7 +51,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
             const SizedBox(height: 12),
             FilledButton(
-              onPressed: () {},
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(builder: (context) => const ListWheelScrollViewDemo()));
+              },
               child: const Text('ListWheel ScrollView'),
             ),
           ],
