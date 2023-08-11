@@ -1,4 +1,4 @@
-# 100 days of flutter
+# 100 days of Flutter
 When starting this project, I've already had experiences with Flutter, so the challenge difficulties will bypass some basic knowledge and the knowledge that I knew it already. 🧑‍💻
 
 ## [Day 001](https://github.com/TaiTrien/100-days-of-flutter/tree/main/day001): Scrolling with [DraggableScrollableSheet](https://api.flutter.dev/flutter/widgets/DraggableScrollableSheet-class.html) & [ListWheelScrollView](https://api.flutter.dev/flutter/widgets/ListWheelScrollView-class.html)
