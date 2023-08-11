@@ -3,7 +3,7 @@ When starting this project, I've already had experiences with Flutter, so the ch
 
 ## [Day 001](https://github.com/TaiTrien/100-days-of-flutter/tree/main/day001): Scrolling with [DraggableScrollableSheet](https://api.flutter.dev/flutter/widgets/DraggableScrollableSheet-class.html) & [ListWheelScrollView](https://api.flutter.dev/flutter/widgets/ListWheelScrollView-class.html)
 
-1. **DraggableScrollableSheet** 📜
+1. **DraggableScrollableSheet**
   - Use another sizing widget beside scrolling widget to make sheet affect. Please check demo.
   - ***minChildSize***: is for smallest size that sheet can shrink and then opposite is ***maxChildSize*** from 0 to 1.
   - ***snap:true***: to turn on custom snap, ***snapSizes: List(double)*** to define points to snap when users release their finger.
