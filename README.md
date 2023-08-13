@@ -32,5 +32,10 @@ https://github.com/TaiTrien/100-days-of-flutter/assets/32502320/27f37cdf-b12f-47
 
 https://github.com/TaiTrien/100-days-of-flutter/assets/32502320/665f6a4b-85c5-4e32-8cc9-5eb8e28a00e4
 
-
+## Day 003: Animation basic concepts
+There are 2 variants: implicit & explicit.
+- ***Implicit*** rely on simple setting a new value through Widget property, then Flutter takes care the rest.
+- ***Explicit*** require an animation controller => mean that you need to handle animation manually.
+Before deciding what type of animation that you need, answering some question first:
+- [Question list](https://docs.flutter.dev/assets/images/docs/ui/animations/animation-decision-tree.png)
 
