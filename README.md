@@ -39,3 +39,13 @@ There are 2 variants: implicit & explicit.
 Before deciding what type of animation that you need, answering some question first:
 - [Question list](https://docs.flutter.dev/assets/images/docs/ui/animations/animation-decision-tree.png)
 
+## Day 004: Implicit animation and TweenAnimationController
+- The process between old and the new value is called **interpolation**.
+- There are 2 props need to be highlighted.
+  1. Duration -> Duration that animation will execute.
+  2. Curve -> How transaction works beginning and end values.
+### TweenAnimationBuilder
+- Use case: when can not find any "AnimatedFoo" widget.
+- Optimization:
+  1. use child parameter is rather than call directly on builder. Because widget will reconstructed every time builder methods get called.
+  2. set tween as static final when appropriate.
