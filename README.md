@@ -39,7 +39,7 @@ There are 2 variants: implicit & explicit.
 Before deciding what type of animation that you need, answering some question first:
 - [Question list](https://docs.flutter.dev/assets/images/docs/ui/animations/animation-decision-tree.png)
 
-## Day 004: Implicit animation and TweenAnimationController
+## [Day 004](https://github.com/TaiTrien/100-days-of-flutter/tree/main/day004): Implicit animation and TweenAnimationController
 - The process between old and the new value is called **interpolation**.
 - There are 2 props need to be highlighted.
   1. Duration -> Duration that animation will execute.
@@ -49,3 +49,11 @@ Before deciding what type of animation that you need, answering some question fi
 - Optimization:
   1. use child parameter is rather than call directly on builder. Because widget will reconstructed every time builder methods get called.
   2. set tween as static final when appropriate.
+
+
+https://github.com/TaiTrien/100-days-of-flutter/assets/32502320/0d3dbf50-32aa-4870-b3fe-ce35074aa762
+
+
+
+https://github.com/TaiTrien/100-days-of-flutter/assets/32502320/5037fa78-033e-4bfa-b6f1-d4776e253936
+
